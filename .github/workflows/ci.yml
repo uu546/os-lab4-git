@@ -56,4 +56,4 @@ jobs:
 
       - name: Run Ansible Lint
         run: |
-          ansible-lint ansible_iac/setup_env.yml
+          ansible-lint setup_env.yml
